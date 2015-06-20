@@ -1,5 +1,5 @@
 require "dep_updater/version"
 
 module DepUpdater
-  # Your code goes here...
+  autoload :GemfileHandler, 'dep_updater/gemfile_handler'
 end

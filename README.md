@@ -1,8 +1,6 @@
 # DepUpdater
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dep_updater`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Dep Updater is a project to handle when you push a new version of a gem. It will update all projects that depend on that gem under a new branch and push to the origin repository. Ultimately, if you have your SCM Host setup correctly, this will kick of a CI build.
 
 ## Installation
 
